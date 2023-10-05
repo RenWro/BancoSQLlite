@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#808080">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+
+        android:paddingBottom="5dp"
+        android:text="Cadastro de Aluno"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:hint="Digite seu Nome"
+        android:paddingTop="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/cpf"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:hint="Digite seu CPD"
+        android:paddingTop="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="164dp"
+        android:layout_height="37dp"
+        android:text="deleltar" />
+
+    <Button
+        android:id="@+id/converterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="#9A5050"
+        android:layout_marginTop="20dp"
+        android:text="Enviar"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+    
